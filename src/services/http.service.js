@@ -12,7 +12,6 @@ export default class Http {
   }
 
  get(url) {
-   debugger;
     return Axios.get(url);
   }
 
